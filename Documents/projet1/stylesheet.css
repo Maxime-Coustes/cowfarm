@@ -1,0 +1,12 @@
+
+
+html { 
+background-image: url("/home/apprenti/Documents/projet1/img/champs.jpg");
+background-repeat: no-repeat; 
+background-position: top center; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
