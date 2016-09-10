@@ -15,7 +15,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand">
-						<img alt="Vache logo" height="150px" width="150px" src="/home/apprenti/Documents/projet1/img/vache5.jpg">
+						<img alt="Vache logo" height="150px" width="150px" src="img/vache5.jpg">
 					</a>
 				</div>
 
@@ -31,9 +31,9 @@
 			<div class="container">
 			<div class="row">
 			<div class="col-lg-6">
-				<button type="button" class="btn btn-default navbar-btn">Accueil</button>
-				<button type="button" class="btn btn-default navbar-btn">Produits</button>
-				<button type="button" class="btn btn-default navbar-btn">Inscriptions</button>
+				<a class="btn btn-default" href="file:///home/apprenti/Documents/projet1/index.html"><span class="glyphicon glyphicon-home">Accueil</a>
+				<a class="btn btn-default" href="file:///home/apprenti/Documents/projet1/produits.html"><span class="glyphicon glyphicon-barcode"></span>Produits</a>
+				<a class="btn btn-default" href="file:///home/apprenti/Documents/projet1/inscriptions.html"><span class="glyphicon glyphicon-user"></span>Inscriptions</a>
 				<button type="button" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</button>
 			</div>
 				
@@ -43,15 +43,15 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img class="img-responsive center-block" src="/home/apprenti/Documents/projet1/img/vache1.png" alt="Marguerite">
+									<img class="img-responsive center-block" src="img/vache1.png" alt="Marguerite">
 								</div>
 
 								<div class="item">
-									<img class="img-responsive center-block" src="/home/apprenti/Documents/projet1/img/vache2.png" alt="Marie">
+									<img class="img-responsive center-block" src="img/vache2.png" alt="Marie">
 								</div>
 
 								<div class="item">
-									<img class="img-responsive center-block" src="/home/apprenti/Documents/projet1/img/vache3.jpg" alt="Josepha">
+									<img class="img-responsive center-block" src="img/vache3.jpg" alt="Josepha">
 								</div>
 							</div>
 
@@ -73,6 +73,7 @@
 	</header>
 
 	<div class="container-fluid">
+	
 	<br>
 	<br>
 	<br>
@@ -88,7 +89,7 @@
 			<!-- Produit 1: yaourt -->
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="thumbnail text-center">
-                            <img src="/home/apprenti/Documents/projet1/img/yaourt.jpg" alt="yaourt" class="responsive">
+                            <img src="img/yaourt.jpg" alt="yaourt" class="responsive">
                             <div class="caption">
                                 <h3>Yaourt</h3>
                                 
@@ -104,7 +105,7 @@
                             <div class="modal-content">
                                 <div class="thumbnail text-center">
                                     
-                                    <img src="/home/apprenti/Documents/projet1/img/yaourt.jpg" alt="yaourt" class="responsive">
+                                    <img src="img/grandyaourt.jpg" alt="yaourt" class="responsive">
                                     <div class="caption">
                                         
                                         
@@ -112,7 +113,158 @@
                                         </span>
                                         <a href="#" class="btn btn-success" role="button">
                                             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                                            Ajouter</a>
+                                            Ajouter</a><div class="dropdown">
+														  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+														    Achat
+														    <span class="caret"></span>
+														  </button>
+														  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+														    <li><a href="#">Unité</a></li>
+														    <li><a href="#">Demi Douzaine</a></li>
+														    <li><a href="#">Douzaine</a></li>
+														    <li role="separator" class="divider"></li>
+														    </ul>
+													</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Produit 2: bouteille de lait -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="thumbnail text-center">
+                            <img src="img/lait.jpg" alt="Lait" class="responsive">
+                            <div class="caption">
+                                <h3>Lait</h3>
+                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".lait">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    More detail</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade lait" tabindex="-1" role="dialog" aria-labelledby="lait">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="thumbnail text-center">
+                                    
+                                    <img src="img/grandlait.jpg" alt="lait" class="responsive">
+                                    <div class="caption">
+                                        
+                                        
+                                        <span class="strong">3<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                                        </span>
+                                        <a href="#" class="btn btn-success" role="button">
+                                            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                            Ajouter</a><div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+											    Achat
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+											    <li><a href="#">Unité</a></li>
+											    <li><a href="#">Demi Douzaine</a></li>
+											    <li><a href="#">Douzaine</a></li>
+											    <li role="separator" class="divider"></li>
+											    </ul>
+											</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produit 3: petit fromage de vache -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="thumbnail text-center">
+                            <img src="img/fromage.jpg" alt="fromage de vache" class="responsive">
+                            <div class="caption">
+                                <h3>Fromage</h3>
+                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".fromage">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    More detail</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade fromage" tabindex="-1" role="dialog" aria-labelledby="fromage">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="thumbnail text-center">
+                                    
+                                    <img src="img/grandfromage.jpg" alt="fromage" class="responsive">
+                                    <div class="caption">
+                                        
+                                        
+                                        <span class="strong">5<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                                        </span>
+                                        <a href="#" class="btn btn-success" role="button">
+                                            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                            Ajouter</a><div class="dropdown">
+									  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									    Achat
+									    <span class="caret"></span>
+									  </button>
+									  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									    <li><a href="#">Unité</a></li>
+									    <li><a href="#">Demi Douzaine</a></li>
+									    <li><a href="#">Douzaine</a></li>
+									    <li role="separator" class="divider"></li>
+									    </ul>
+									</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produit 4: vache qui rit -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="thumbnail text-center">
+                            <img src="img/vachequirit.jpg" alt="vachequirit" class="responsive">
+                            <div class="caption">
+                                <h3>Vache qui rit</h3>
+                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".vachequirit">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                    More detail</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade vachequirit" tabindex="-1" role="dialog" aria-labelledby="vachequirit">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="thumbnail text-center">
+                                    
+                                    <img src="img/grandevachequirit.jpg" alt="vache qui rit" class="responsive">
+                                    <div class="caption">
+                                        
+                                        
+                                        <span class="strong">8<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                                        </span>
+                                        <a href="#" class="btn btn-success" role="button">
+                                            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                            Ajouter</a><div class="dropdown">
+										  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										    Achat
+										    <span class="caret"></span>
+										  </button>
+										  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										    <li><a href="#">Unité</a></li>
+										    <li><a href="#">Demi Douzaine</a></li>
+										    <li><a href="#">Douzaine</a></li>
+										    <li role="separator" class="divider"></li>
+										    </ul>
+										</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +276,17 @@
 	<footer>
 		<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
-    Pied de page
-  </div>
+  <div id="contact">
+  <div class="adresse">
+    La ferme de Caro<br>
+	38 rue de la gare<br>
+	La Loupe<br>
+	28240
+	</div>
+	<div class="telephone">06.05.04.03.02</div>
+	<div class="dispo">Ouvert du Lundi au Samedi de 10h à 19h</div>
+	</div>
+	</div>
 </nav>
 	</footer>
 
@@ -134,3 +295,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
+
+<!--
+ <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Achat
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Unité</a></li>
+    <li><a href="#">Demi Douzaine</a></li>
+    <li><a href="#">Douzaine</a></li>
+    <li role="separator" class="divider"></li>
+    </ul>
+</div>
+
+	a mettre a la bonne place				-->

@@ -1,7 +1,7 @@
 
 
-html { 
-background-image: url("/home/apprenti/Documents/projet1/img/champs.jpg");
+body { 
+background-image: url("img/champs.jpg");
 background-repeat: no-repeat; 
 background-position: top center; 
 -webkit-background-size: cover;
@@ -10,3 +10,46 @@ background-position: top center;
 background-size: cover;
 }
 
+.container-fluid {
+	 background-color: rgba(255, 255, 255, 0);
+}
+
+.thumbnail {
+	height: 200px;
+	width: 180px;
+}
+
+
+.modal-content {
+	height: 200px;
+	width: 180px;
+	margin: auto;
+}
+
+.modal-content .thumbnail.text-center {
+	height: 605px ;
+	width: 400px ;
+}
+
+.identification {
+	color: black;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.adresse {
+	float:left;
+}
+.telephone {
+	text-align:center;
+}
+.dispo {
+	text-align:center;
+}
+
+.navbar-fixed-top {
+	background-color:rgba(0,255,0,0.3);
+}
+
+.navbar-fixed-bottom {
+	background-color:rgba(255,255,255,0.5);
+}
